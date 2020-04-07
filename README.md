@@ -49,11 +49,14 @@ hxBackground <- "#fdfaf0" #ffffff
   ggsave(strFileName, width = 6, height = 6)
 ```
 ### Map of Madrid
+
 ![](MadridMap.png)
 
 ### Map of Zaragoza
+
 ![](Zaragoza Spain_20200407123412_.jpeg)
 
 ### Map of Jerez de La Frontera
+
 ![](Jerez de La Frontera Spain_20200407130339_.jpeg)
 
