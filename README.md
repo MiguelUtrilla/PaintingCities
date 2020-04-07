@@ -27,6 +27,7 @@ hxColorMetro <- "#000000"
 hxColorWater <- "#000000"
 hxBackground <- "#fdfaf0" #ffffff
 ```
+- **It takes a long time to generate a map** A small city can be plotted in less than a minute. But cities like Madrid or Rome can take up to 10 minutes depending on the power of your computer.
 
 ## Framing the map
 
@@ -36,7 +37,8 @@ hxBackground <- "#fdfaf0" #ffffff
 
 ## Results
 
-- All maps will be generated in the working directory in jpeg format. BUt it can be saved by modifying the following chunk
+- All maps will be generated in the working directory in jpeg format. But it can be saved by modifying the following chunk
+- The filename will inculde a timestamp so as not to override previous images
 
 ```
   strFileName <- paste(strShortName,
@@ -46,7 +48,12 @@ hxBackground <- "#fdfaf0" #ffffff
   
   ggsave(strFileName, width = 6, height = 6)
 ```
-
+### Map of Madrid
 ![](MadridMap.png)
 
+### Map of Zaragoza
+![](Zaragoza Spain_20200407123412_.jpeg)
+
+### Map of Jerez de La Frontera
+![](Jerez de La Frontera Spain_20200407130339_.jpeg)
 
