@@ -54,9 +54,9 @@ hxBackground <- "#fdfaf0" #ffffff
 
 ### Map of Zaragoza
 
-![](Zaragoza Spain_20200407123412_.jpeg)
+![](Zaragoza%20Spain_20200407123412_.jpeg)
 
 ### Map of Jerez de La Frontera
 
-![](Jerez de La Frontera Spain_20200407130339_.png)
+![](Jerez%20de%20La%20Frontera%20Spain_20200407130339_.jpeg)
 
