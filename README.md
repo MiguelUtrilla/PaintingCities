@@ -58,5 +58,5 @@ hxBackground <- "#fdfaf0" #ffffff
 
 ### Map of Jerez de La Frontera
 
-![](Jerez de La Frontera Spain_20200407130339_.jpeg)
+![](Jerez de La Frontera Spain_20200407130339_.png)
 
