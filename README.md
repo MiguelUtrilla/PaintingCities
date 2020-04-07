@@ -36,5 +36,17 @@ hxBackground <- "#fdfaf0" #ffffff
 
 ## Results
 
-- All maps will be generated in the working directory in jpeg format.
+- All maps will be generated in the working directory in jpeg format. BUt it can be saved by modifying the following chunk
+
+```
+  strFileName <- paste(strShortName,
+        Sys.time()%>%str_replace_all('[^0-9]', ''),
+        ".jpeg",
+        sep = "_")
+  
+  ggsave(strFileName, width = 6, height = 6)
+```
+
+![](MadridMap.png)
+
 
